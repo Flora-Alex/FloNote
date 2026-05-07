@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "b17883aa8104c3d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "25fcaa71fe0ee6f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acd2e1d13f63ed08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/ai/Prompt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prompt"
+            }
+          },
+          {
+            "id": "3444d6d12994dc13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/ai/ToolCalling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ToolCalling"
+            }
+          },
+          {
+            "id": "27305ed35697cfb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29959f40f558fba2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5153141bf5bc94e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee1319ee0a41544b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "9c75fc2ceadc0b74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:clippings",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "891a3b01c68c59a7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5843e2cb91b31b4f",
+    "type": "split",
+    "children": [
+      {
+        "id": "47031ad78394dedc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abb7aaa222f562f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/index.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "index 的反向链接列表"
+            }
+          },
+          {
+            "id": "b6e4fd1577966667",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "5272403ade1ee261",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7aff2dd3ff0bb987",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "abbbb6cd45af0b85",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "index 的大纲"
+            }
+          },
+          {
+            "id": "ece4bf8e4be8d030",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4f3f0905630be951",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "wiki/index.md"
+              },
+              "icon": "lucide-info",
+              "title": "index的笔记属性"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "27305ed35697cfb2",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "wiki/ai/ToolCalling.md",
+    "wiki/ai/RAG.md",
+    "wiki/ai/ReAct.md",
+    "wiki/ai/Prompt.md",
+    "wiki/ai/MCP.md",
+    "wiki/ai/CoT.md",
+    "wiki/ai/AIHallucination.md",
+    "raw/assert/Pasted image 20260507153111.png",
+    "Pasted image 20260507153044.png",
+    "raw/aiagent_proj/01-AI 大模型接入.md",
+    "raw/articles/LLM Wiki.md",
+    "raw/aiagent_proj/02-AI 应用开发.md",
+    "raw/aiagent_proj/06-MCP 协议.md",
+    "raw/aiagent_proj/07-AI 智能体构建.md",
+    "raw/aiagent_proj/05-工具调用.md",
+    "raw/aiagent_proj/04-RAG 知识库进阶.md",
+    "wiki/log.md",
+    "raw/aiagent_proj/03-RAG 知识库基础.md",
+    "raw/videos",
+    "raw/articles",
+    "wiki/claude/MCP.md",
+    "raw/aiagent_proj/项目总览.md",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/views/HomeView.vue",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/views/AboutView.vue",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/views",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/utils/pictureEditWebSocket.ts",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/utils/index.ts",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/utils",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/stores/useLoginUserStore.ts",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/stores",
+    "wiki/projects/FloraPic/flora-picture-frontend/src/assets/logo.png",
+    "wiki/projects/FloraPic/flora-picture-frontend/README.md",
+    "wiki/projects/FloraPic/flora-picture-backend/HELP.md",
+    "wiki/ai/A2A.md",
+    "wiki/ai/AIAgent.md",
+    "wiki/dev-tools/DashScope.md",
+    "wiki/backend/PGVector.md",
+    "raw/assert/Pasted image 20260507135517.png",
+    "raw/assert/Pasted image 20260507135502.png",
+    "raw/assert/Pasted image 20260507135317.png",
+    "raw/assert/Pasted image 20260507135218.png",
+    "raw/assert/Pasted image 20260507135210.png",
+    "raw/assert/Pasted image 20260507135204.png",
+    "raw/assert/Pasted image 20260507135157.png"
+  ]
+}
