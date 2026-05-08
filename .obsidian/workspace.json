@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "25fcaa71fe0ee6f4",
+        "id": "59da4115c0624688",
         "type": "tabs",
         "children": [
           {
-            "id": "acd2e1d13f63ed08",
+            "id": "198304195a7861b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/ai/Prompt.md",
+                "file": "raw/articles/OpenCLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt"
-            }
-          },
-          {
-            "id": "3444d6d12994dc13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/ai/ToolCalling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ToolCalling"
-            }
-          },
-          {
-            "id": "27305ed35697cfb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "title": "OpenCLI"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,6 +33,7 @@
       {
         "id": "f5153141bf5bc94e",
         "type": "tabs",
+        "dimension": 73.61477572559367,
         "children": [
           {
             "id": "ee1319ee0a41544b",
@@ -82,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:clippings",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,10 +76,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "93ce519270298f21",
+        "type": "tabs",
+        "dimension": 26.385224274406333,
+        "children": [
+          {
+            "id": "d36c3d031ae282e1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "5843e2cb91b31b4f",
@@ -123,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/index.md",
+                "file": "raw/personal_graph_proj/02-图片模块.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -133,7 +122,17 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "02-图片模块 的反向链接列表"
+            }
+          },
+          {
+            "id": "ece4bf8e4be8d030",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -147,6 +146,21 @@
               },
               "icon": "links-going-out",
               "title": "出链"
+            }
+          },
+          {
+            "id": "abbbb6cd45af0b85",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/ai/RAG.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "RAG 的大纲"
             }
           },
           {
@@ -179,47 +193,43 @@
             }
           },
           {
-            "id": "abbbb6cd45af0b85",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "wiki/index.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "index 的大纲"
-            }
-          },
-          {
-            "id": "ece4bf8e4be8d030",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "4f3f0905630be951",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wiki/index.md"
+                "file": "raw/personal_graph_proj/02-图片模块.md"
               },
               "icon": "lucide-info",
-              "title": "index的笔记属性"
+              "title": "02-图片模块的笔记属性"
+            }
+          },
+          {
+            "id": "2bd4114376c6b0af",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "a47c3cd87bef8d99",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 338.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,49 +241,51 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "27305ed35697cfb2",
+  "active": "198304195a7861b4",
   "lastOpenFiles": [
     "CLAUDE.md",
+    "wiki/claude/MCP.md",
+    "wiki/ai/Weaviate.md",
     "wiki/ai/ToolCalling.md",
-    "wiki/ai/RAG.md",
-    "wiki/ai/ReAct.md",
-    "wiki/ai/Prompt.md",
-    "wiki/ai/MCP.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki/backend/java/java项目初始化.md",
+    "wiki/ai/AIAgent.md",
     "wiki/ai/CoT.md",
-    "wiki/ai/AIHallucination.md",
+    "wiki/ai/Chroma.md",
+    "wiki/ai/AgentSkill.md",
+    "wiki/ai/A2A.md",
+    "interview/小林/Java/Spring面试题.md",
+    "wiki/career/Spring.md",
+    "wiki/career/JVM.md",
+    "wiki/career/Java集合.md",
+    "wiki/career/Java并发.md",
+    "wiki/backend/java/用户模块开发.md",
+    "wiki/career/Java基础.md",
+    "wiki/career/MyBatis.md",
+    "wiki/backend/java/Hutool.md",
+    "wiki/backend/java/Knife4j.md",
+    "wiki/backend/index.md",
+    "wiki/dev-tools/Git.md",
+    "wiki/ai/LLMGateway.md",
+    "wiki/ai/Workflow.md",
+    "interview/小林/Java",
+    "interview/小林/Function Calling",
+    "interview/小林/RAG",
+    "interview/小林/agent",
+    "interview/鱼皮/操作系统.pdf",
+    "Clippings",
+    "interview/小林",
+    "interview/鱼皮",
+    "raw/Clippings",
+    "dailynotes",
     "raw/assert/Pasted image 20260507153111.png",
     "Pasted image 20260507153044.png",
-    "raw/aiagent_proj/01-AI 大模型接入.md",
-    "raw/articles/LLM Wiki.md",
-    "raw/aiagent_proj/02-AI 应用开发.md",
-    "raw/aiagent_proj/06-MCP 协议.md",
-    "raw/aiagent_proj/07-AI 智能体构建.md",
-    "raw/aiagent_proj/05-工具调用.md",
-    "raw/aiagent_proj/04-RAG 知识库进阶.md",
-    "wiki/log.md",
-    "raw/aiagent_proj/03-RAG 知识库基础.md",
-    "raw/videos",
-    "raw/articles",
-    "wiki/claude/MCP.md",
-    "raw/aiagent_proj/项目总览.md",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/views/HomeView.vue",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/views/AboutView.vue",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/views",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/utils/pictureEditWebSocket.ts",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/utils/index.ts",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/utils",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/stores/useLoginUserStore.ts",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/stores",
     "wiki/projects/FloraPic/flora-picture-frontend/src/assets/logo.png",
-    "wiki/projects/FloraPic/flora-picture-frontend/README.md",
-    "wiki/projects/FloraPic/flora-picture-backend/HELP.md",
-    "wiki/ai/A2A.md",
-    "wiki/ai/AIAgent.md",
-    "wiki/dev-tools/DashScope.md",
-    "wiki/backend/PGVector.md",
     "raw/assert/Pasted image 20260507135517.png",
     "raw/assert/Pasted image 20260507135502.png",
     "raw/assert/Pasted image 20260507135317.png",

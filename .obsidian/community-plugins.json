@@ -4,5 +4,7 @@
   "dataview",
   "obsidian-git",
   "templater-obsidian",
-  "quickadd"
+  "quickadd",
+  "recent-files-obsidian",
+  "claudian"
 ]
