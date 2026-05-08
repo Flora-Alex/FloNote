@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/ai/RAG.md",
+                "file": "raw/articles/OpenCLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RAG 的大纲"
+              "title": "OpenCLI 的大纲"
             }
           },
           {
@@ -198,10 +198,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "raw/personal_graph_proj/02-图片模块.md"
+                "file": "raw/articles/OpenCLI.md"
               },
               "icon": "lucide-info",
-              "title": "02-图片模块的笔记属性"
+              "title": "OpenCLI的笔记属性"
             }
           },
           {
@@ -245,7 +245,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "198304195a7861b4",
+  "active": "2bd4114376c6b0af",
   "lastOpenFiles": [
     "CLAUDE.md",
     "wiki/claude/MCP.md",
