@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "raw/assert",
+  "attachmentFolderPath": "raw/assets",
   "newFileLocation": "folder",
   "newFileFolderPath": "dailynotes",
   "promptDelete": false
