@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailynotes/Bali trip/餐厅Bar推荐.md",
+                "file": "raw/personal_graph_proj/03-用户传图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "餐厅Bar推荐"
+              "title": "03-用户传图"
             }
           }
         ]
@@ -105,8 +105,23 @@
       {
         "id": "47031ad78394dedc",
         "type": "tabs",
-        "dimension": 42.42819843342037,
+        "dimension": 99.99999999999999,
         "children": [
+          {
+            "id": "abbbb6cd45af0b85",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/personal_graph_proj/03-用户传图.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "03-用户传图 的大纲"
+            }
+          },
           {
             "id": "abb7aaa222f562f7",
             "type": "leaf",
@@ -212,29 +227,7 @@
             }
           }
         ],
-        "currentTab": 6
-      },
-      {
-        "id": "4a80921e835cfaf4",
-        "type": "tabs",
-        "dimension": 57.57180156657964,
-        "children": [
-          {
-            "id": "abbbb6cd45af0b85",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "dailynotes/Bali trip/餐厅Bar推荐.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "餐厅Bar推荐 的大纲"
-            }
-          }
-        ]
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -255,52 +248,53 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2bd4114376c6b0af",
+  "active": "4abbd8c45d25148e",
   "lastOpenFiles": [
-    "raw/cheatsheets/OpenCLI.md",
-    "raw/cheatsheets",
-    "dailynotes/Bali trip/餐厅Bar推荐.md",
-    "dailynotes/Bali trip/游玩.md",
-    "dailynotes/Bali trip/overall.md",
-    "dailynotes/Bali trip",
-    "wiki/ai/Workflow.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki/current-affairs/investment/投资组合理论.md",
+    "wiki/current-affairs/investment/股票投资入门.md",
+    "wiki/current-affairs/investment/金融市场概览.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "wiki/investment/股票投资入门.md",
+    "wiki/current-affairs/investment/技术分析.md",
+    "wiki/current-affairs/investment/期货交易基础.md",
+    "wiki/current-affairs/investment/基本面分析.md",
+    "wiki/current-affairs/investment/K线图.md",
+    "wiki/current-affairs/investment",
+    "wiki/investment/K线图.md",
+    "wiki/investment/技术分析.md",
+    "wiki/investment/基本面分析.md",
+    "Clippings/bilibili/Untitled.md",
+    "Clippings/bilibili/-video-screenshots-without-notes.base.crswap",
+    "Clippings/bilibili/-video-screenshots-without-notes.base",
+    "Clippings/bilibili/-video-screenshots.base.crswap",
+    "Clippings/bilibili/-video-screenshots.base",
+    "Clippings/bilibili/-hovernotes.base.crswap",
+    "Clippings/bilibili/-hovernotes.base",
+    "Clippings/bilibili/hover-notes-images",
+    "Clippings/bilibili",
+    "wiki/ai/LLMTraining.md",
+    "wiki/investment/投资组合理论.md",
+    "wiki/investment/期货交易基础.md",
+    "wiki/investment/金融市场概览.md",
+    "wiki/investment",
+    "wiki/ai/Transformer.md",
+    "wiki/ai/LLM.md",
+    "wiki/ai/CoT.md",
+    "wiki/ai/MoE.md",
+    "wiki/ai/Prompt.md",
     "wiki/ai/ToolCalling.md",
-    "wiki/ai/Weaviate.md",
-    "wiki/ai/ReAct.md",
-    "wiki/ai/Milvus.md",
-    "wiki/ai/Qdrant.md",
-    "wiki/ai/Chroma.md",
-    "wiki/ai/AIAgent.md",
-    "wiki/ai/AIHallucination.md",
-    "wiki/ai/AgentSkill.md",
-    "wiki/ai/A2A.md",
-    "raw/personal_graph_proj/03-用户传图.md",
-    "raw/personal_graph_proj/项目初始化.md",
-    "raw/personal_graph_proj/02-图片模块.md",
-    "raw/aiagent_proj/06-MCP 协议.md",
-    "raw/aiagent_proj/05-工具调用.md",
-    "wiki/ai/LLMGateway.md",
-    "wiki/backend/java/图片模块开发.md",
-    "wiki/backend/java/java项目初始化.md",
-    "wiki/backend/java/用户模块开发.md",
-    "raw/personal_graph_proj/01-用户模块.md",
-    "interview/小林/Java",
-    "interview/小林/Function Calling",
-    "interview/小林/RAG",
-    "interview/小林/agent",
-    "interview/鱼皮/操作系统.pdf",
-    "Clippings",
-    "interview/小林",
-    "interview/鱼皮",
-    "raw/assets/Pasted image 20260507153111.png",
-    "Pasted image 20260507153044.png",
-    "wiki/projects/FloraPic/flora-picture-frontend/src/assets/logo.png",
-    "raw/assets/Pasted image 20260507135517.png",
-    "raw/assets/Pasted image 20260507135502.png",
-    "raw/assets/Pasted image 20260507135317.png",
-    "raw/assets/Pasted image 20260507135218.png",
-    "raw/assets/Pasted image 20260507135210.png",
-    "raw/assets/Pasted image 20260507135204.png",
-    "raw/assets/Pasted image 20260507135157.png"
+    "raw/assets/截屏2026-05-10 15.12.33.png",
+    "raw/assets/截屏2026-05-10 15.12.28.png",
+    "raw/assets/截屏2026-05-10 15.09.55.png",
+    "raw/assets/截屏2026-05-10 15.09.45.png",
+    "raw/assets/截屏2026-05-10 15.06.07.png",
+    "raw/assets/截屏2026-05-10 15.05.56.png",
+    "raw/assets/截屏2026-05-10 14.56.58.png",
+    "raw/assets/截屏2026-05-10 14.57.04.png",
+    "raw/assets/截屏2026-05-10 14.54.12.png",
+    "raw/assets/截屏2026-05-10 14.53.52.png"
   ]
 }

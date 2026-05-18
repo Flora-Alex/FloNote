@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778899600931-p7m7wkyh7",
+  "providerId": "claude",
+  "title": "我现在想学习金融相关的知识，以供我将来进行股票、期货等投资，你能不能搜集一些资料？你可以使用open...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778899600935,
+  "updatedAt": 1778900706081,
+  "lastResponseAt": 1778900706081,
+  "sessionId": "512a2816-9215-4e08-831a-3aa81a25548e",
+  "providerState": {
+    "providerSessionId": "512a2816-9215-4e08-831a-3aa81a25548e"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 1531,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 63936,
+    "contextWindow": 200000,
+    "contextTokens": 65467,
+    "percentage": 33,
+    "contextWindowIsAuthoritative": true
+  }
+}
