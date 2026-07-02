@@ -58,7 +58,7 @@ updated_at: 2026/05/15
 ### 缓解方案
 
 - **训练层**：拒答样例、校准训练
-- **推理层**：[[CoT]]、Temperature 调低、Self-Consistency
+- **推理层**：[[agent/agentArchitectures|CoT]]、Temperature 调低、Self-Consistency
 - **系统层**：[[RAG]]、后处理事实核查、强制带引用
 
 **核心结论**：幻觉不可能完全消除，工程目标是降低发生率 + 让用户能识别。
@@ -123,7 +123,7 @@ updated_at: 2026/05/15
 - [[LLMInference]] — LLM 推理部署
 - [[MoE]] — 混合专家模型架构
 - [[AIHallucination]] — 幻觉问题详解
-- [[CoT]] — 思维链推理
+- [[agent/agentArchitectures|CoT]] — 思维链推理
 - [[Prompt]] — 提示工程
 - [[RAG]] — 检索增强生成
 - [[AIAgent]] — AI Agent 架构

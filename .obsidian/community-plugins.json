@@ -6,5 +6,6 @@
   "templater-obsidian",
   "quickadd",
   "recent-files-obsidian",
-  "claudian"
+  "claudian",
+  "obsidian-local-rest-api"
 ]

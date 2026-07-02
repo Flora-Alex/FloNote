@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "930847e4cafe4f38",
+        "id": "be732cfd8ae72eeb",
         "type": "tabs",
         "children": [
           {
-            "id": "4abbd8c45d25148e",
+            "id": "42115d5b1799d4f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/personal_graph_proj/03-用户传图.md",
+                "file": "wiki/dev-tools/macSetup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-用户传图"
+              "title": "macSetup"
             }
           }
         ]
@@ -89,14 +89,14 @@
               "type": "recent-files",
               "state": {},
               "icon": "clock",
-              "title": "Recent Files"
+              "title": "Recent files"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 334.5
   },
   "right": {
     "id": "5843e2cb91b31b4f",
@@ -105,7 +105,6 @@
       {
         "id": "47031ad78394dedc",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "abbbb6cd45af0b85",
@@ -113,13 +112,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/personal_graph_proj/03-用户传图.md",
+                "file": "Clippings/bilibili/-hovernotes.base",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "03-用户传图 的大纲"
+              "title": "-hovernotes 的大纲"
             }
           },
           {
@@ -139,16 +138,6 @@
               },
               "icon": "links-coming-in",
               "title": "02-图片模块 的反向链接列表"
-            }
-          },
-          {
-            "id": "ece4bf8e4be8d030",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
             }
           },
           {
@@ -225,13 +214,23 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "e561500c22ae2707",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 442.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,53 +247,53 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "4abbd8c45d25148e",
+  "active": "2bd4114376c6b0af",
   "lastOpenFiles": [
-    "wiki/log.md",
-    "wiki/index.md",
-    "wiki/current-affairs/investment/投资组合理论.md",
-    "wiki/current-affairs/investment/股票投资入门.md",
-    "wiki/current-affairs/investment/金融市场概览.md",
-    "AGENTS.md",
-    "CLAUDE.md",
-    "wiki/investment/股票投资入门.md",
-    "wiki/current-affairs/investment/技术分析.md",
-    "wiki/current-affairs/investment/期货交易基础.md",
-    "wiki/current-affairs/investment/基本面分析.md",
-    "wiki/current-affairs/investment/K线图.md",
-    "wiki/current-affairs/investment",
-    "wiki/investment/K线图.md",
-    "wiki/investment/技术分析.md",
-    "wiki/investment/基本面分析.md",
-    "Clippings/bilibili/Untitled.md",
-    "Clippings/bilibili/-video-screenshots-without-notes.base.crswap",
-    "Clippings/bilibili/-video-screenshots-without-notes.base",
-    "Clippings/bilibili/-video-screenshots.base.crswap",
-    "Clippings/bilibili/-video-screenshots.base",
-    "Clippings/bilibili/-hovernotes.base.crswap",
-    "Clippings/bilibili/-hovernotes.base",
-    "Clippings/bilibili/hover-notes-images",
-    "Clippings/bilibili",
-    "wiki/ai/LLMTraining.md",
-    "wiki/investment/投资组合理论.md",
-    "wiki/investment/期货交易基础.md",
-    "wiki/investment/金融市场概览.md",
-    "wiki/investment",
-    "wiki/ai/Transformer.md",
+    "wiki/career/careerPlan.md",
+    "wiki/dev-tools/macSetup.md",
+    "raw/reading",
+    "wiki/dev-tools/README.md",
+    "wiki/dev-tools/zshAndShell.md",
+    "wiki/dev-tools/ghostty.md",
+    "raw/职场经验之谈/生存指南/3.2 掌握规则：从职场小白到规则掌控者的进化手册.md",
+    "raw/大模型学习/第5课-RAG (Part 2)：RAG工业级项目实战/【RAG实战-课件】.pdf",
+    "raw/大模型学习/第5课-RAG (Part 2)：RAG工业级项目实战/【论文精读】RAG+推理综述.pdf",
+    "raw/大模型学习/第4课-RAG (Part 1)：检索增强生成 - 原理与核心组件/第五周：RAG (Part 1)：检索增强生成 - 原理与核心组件.pdf",
+    "raw/大模型学习/第5课-RAG (Part 2)：RAG工业级项目实战/第六周：RAG (Part 2)：RAG工业级项目实战.pdf",
+    "raw/大模型学习/第5课-RAG (Part 2)：RAG工业级项目实战/【RAG实战-11】Embeding model和Rerank model怎么选.pdf",
+    "raw/大模型学习/第5课-RAG (Part 2)：RAG工业级项目实战/【RAG实战-第1天】RAG流程详解与优化方案：案例+代码+图解.pdf",
+    "raw/大模型学习/第4课-RAG (Part 1)：检索增强生成 - 原理与核心组件/从零-RAG大师/rag_explanation.svg",
+    "raw/大模型学习/第4课-RAG (Part 1)：检索增强生成 - 原理与核心组件/从零-RAG大师/multimodal_rag_explanation.svg",
+    "raw/大模型学习/第4课-RAG (Part 1)：检索增强生成 - 原理与核心组件/从零-RAG大师/context_enriched_rag.svg",
+    "raw/大模型学习/第2课-llama3-from-scratch/【基础篇】解码采样策略.pdf",
+    "raw/大模型学习/第2课-llama3-from-scratch/【论文精读-3】Deepseek-R1论文精读.pdf",
+    "raw/大模型学习/第2课-llama3-from-scratch/【拓展篇】万字详解Deepseek系列.pdf",
+    "wiki/ai/transformer/transformerComputationProcess.md",
+    "wiki/ai/transformer/practice.md",
+    "wiki/ai/transformer/inferenceOptimization.md",
+    "wiki/ai/transformer/foundations.md",
+    "wiki/ai/transformer/modernArchitectures.md",
+    "wiki/ai/transformer/Transformer.md",
+    "wiki/ai/rag/ragLlamaIndex.md",
+    "wiki/ai/rag/RAG.md",
     "wiki/ai/LLM.md",
-    "wiki/ai/CoT.md",
-    "wiki/ai/MoE.md",
-    "wiki/ai/Prompt.md",
-    "wiki/ai/ToolCalling.md",
-    "raw/assets/截屏2026-05-10 15.12.33.png",
-    "raw/assets/截屏2026-05-10 15.12.28.png",
-    "raw/assets/截屏2026-05-10 15.09.55.png",
-    "raw/assets/截屏2026-05-10 15.09.45.png",
-    "raw/assets/截屏2026-05-10 15.06.07.png",
-    "raw/assets/截屏2026-05-10 15.05.56.png",
-    "raw/assets/截屏2026-05-10 14.56.58.png",
-    "raw/assets/截屏2026-05-10 14.57.04.png",
-    "raw/assets/截屏2026-05-10 14.54.12.png",
-    "raw/assets/截屏2026-05-10 14.53.52.png"
+    "wiki/ai/rag/ragChunking.md",
+    "wiki/ai/rag/chunkSizeSelection.md",
+    "wiki/ai/rag/Chroma.md",
+    "wiki/ai/rag/adaptiveRetrieval.md",
+    "wiki/ai/rag/graphRag.md",
+    "wiki/ai/rag/ragFromZeroToHeroCourse.md",
+    "wiki/ai/rag/rlEnhancedRag.md",
+    "wiki/ai/rag/reranking.md",
+    "wiki/ai/rag/selfRag.md",
+    "wiki/ai/rag/semanticChunking.md",
+    "wiki/ai/rag/simpleRagPipeline.md",
+    "raw/大模型学习/第3课-大模型部署、压测、应用开发实战/提示词工程/25年高考作文.jpeg",
+    "raw/大模型学习/第6课-Agent 智能体：让 LLM 自主行动/第9周-Agent/simplified-agent-flow.svg",
+    "raw/大模型学习/第6课-Agent 智能体：让 LLM 自主行动/第9周-Agent/rag-system-workflow.svg",
+    "raw/大模型学习/第6课-Agent 智能体：让 LLM 自主行动/第9周-Agent/ev-sales-training-detailed.svg",
+    "raw/大模型学习/第6课-Agent 智能体：让 LLM 自主行动/第9周-Agent/ev-sales-task-breakdown.svg",
+    "raw/大模型学习/第6课-Agent 智能体：让 LLM 自主行动/第9周-Agent/chinese-flowchart.svg",
+    "raw/大模型学习/第6课-Agent 智能体：让 LLM 自主行动/第9周-Agent/chinese-agent-architecture.svg"
   ]
 }

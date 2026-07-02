@@ -15,12 +15,13 @@ Vault/
 │   ├── dev-tools/       # 开发工具（VSCode, IDE, CLI, Git, Zed...）
 │   ├── backend/         # 后端开发（Java, Springboot, Redis, Go, Python...）
 │   ├── current-affairs/ # 时事分析（经济, 政治, 金融, 投资...）
-│   ├── career/          # 职业发展（面试, 求职, 职业规划...）
+│   ├── career/          # 职业发展（职业规划, 个人画像, 理财规划, 协作计划...）
+│   ├── alfred/          # 效率工具（Alfred 使用指南, 快捷键, 工作流...）
 │   ├── obsidian/        # Obsidian（知识管理, 笔记, 双链...）
 │   ├── projects/        # 项目开发经验沉淀（ob-project-log 自动生成）
-│	├── distill/         # 提炼后的决策知识（供 CLAUDE.md 读取，做 trade-off 决策）
-│	├── open-source/     # 开源仓库知识沉淀（软链接 + 预消化内容，CLAUDE.md 优先查阅）
-│	└── {新主题}/         # AI 匹配不到预定义主题时，自动创建新目录 (kebab-case 英文命名)
+│   ├── distill/         # 提炼后的决策知识（供 CLAUDE.md 读取，做 trade-off 决策）
+│   ├── open-source/     # 开源仓库知识沉淀（软链接 + 预消化内容，CLAUDE.md 优先查阅）
+│   └── {新主题}/         # AI 匹配不到预定义主题时，自动创建新目录 (camelCase 英文命名)
 ├── work/                # 工作相关（隔离区）。LLM 只读不写，不入全局索引。
 ├── interview/           # 面试题库。保持原有结构，LLM 只维护子索引。
 ├── 机密项目/             # 不碰，不入库，不索引，不编辑。
@@ -84,4 +85,62 @@ article_id: OBA-xxxxxxxx
 created_at: YYYY/MM/DD
 updated_at: YYYY/MM/DD
 ---
+```
+
+## 文件命名规范
+
+### 命名格式
+
+**统一使用小驼峰命名（camelCase）**，不使用短横线（kebab-case）或下划线（snake_case）。
+
+**规则**：
+1. 首字母小写
+2. 每个新单词首字母大写
+3. 不使用分隔符（短横线、下划线）
+4. 文件夹前缀不重复（如 `alfred/` 下的文件不需要再加 `alfred-` 前缀）
+
+**示例**：
+```
+✅ 正确：
+- gettingStarted.md
+- basicFeatures.md
+- floraProfile.md
+- careerPlan.md
+
+❌ 错误：
+- alfred-getting-started.md（冗余前缀 + 短横线）
+- flora-profile.md（短横线）
+- career_plan.md（下划线）
+```
+
+### 特殊文件
+
+以下文件保持大写，不遵循驼峰命名：
+- `README.md` — 入口文档
+- `CLAUDE.md` — 协作规范
+- `AGENT.md` — Agent 规范
+
+### 目录结构示例
+
+```text
+wiki/
+├── ai/
+│   ├── LLM.md
+│   ├── transformer.md
+│   └── ...
+├── career/
+│   ├── README.md
+│   ├── floraProfile.md
+│   ├── careerPlan.md
+│   ├── financialPlan.md
+│   └── collaborationPlan.md
+├── alfred/
+│   ├── README.md
+│   ├── gettingStarted.md
+│   ├── basicFeatures.md
+│   ├── shortcuts.md
+│   ├── advancedFeatures.md
+│   ├── workflows.md
+│   └── tips.md
+└── ...
 ```

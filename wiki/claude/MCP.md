@@ -29,7 +29,7 @@ MCP（Model Co⁠ntext Protocol，模型上下文协议）是‌一种开放标�
 - **难复用**：在 Claude Desktop 里接好的工具，换个客户端就得重新接一遍
 - **强绑定**：工具集成代码和特定模型、特定客户端深度耦合，换个模型就得重写，换个客户端也得重写
 
-MCP 的核心思路是 **"工具实现一次，到处复用"**：工具提供方按照 MCP 标准实现一个 Server，所有支持 MCP 的客户端都能直接使用，无需重复开发。这和 [[ToolCalling]] 中提到的 Function Calling 有本质区别——Function Calling 解决的是模型层面的调用格式问题，而 MCP 解决的是工具接入的标准化问题（详见后文 [[#MCP vs Function Calling]] 对比）。
+MCP 的核心思路是 **"工具实现一次，到处复用"**：工具提供方按照 MCP 标准实现一个 Server，所有支持 MCP 的客户端都能直接使用，无需重复开发。这和 [[agent/agentToolUse|ToolCalling]] 中提到的 Function Calling 有本质区别——Function Calling 解决的是模型层面的调用格式问题，而 MCP 解决的是工具接入的标准化问题（详见后文 [[#MCP vs Function Calling]] 对比）。
 
 ### MCP 架构
 
@@ -172,7 +172,7 @@ MCP 支持两种主要的传输方式：
 
 ### MCP vs Function Calling
 
-MCP 和 [[ToolCalling]] 不是竞争关系，而是不同层面的东西：
+MCP 和 [[agent/agentToolUse|ToolCalling]] 不是竞争关系，而是不同层面的东西：
 
 | 维度 | Function Calling | MCP |
 |------|-----------------|-----|
@@ -190,7 +190,7 @@ MCP 和 [[ToolCalling]] 不是竞争关系，而是不同层面的东西：
 
 ### MCP vs Agent Skill
 
-MCP 和 [[AgentSkill]] 分别赋予 [[AIAgent]] 不同维度的能力：
+MCP 和 [[agent/agentToolUse|AgentSkill]] 分别赋予 [[AIAgent]] 不同维度的能力：
 
 | 维度 | MCP | Agent Skill |
 |------|-----|-------------|
@@ -280,6 +280,6 @@ if __name__ == "__main__":
 ---
 
 > [!related]
-> - [[ToolCalling]] — MCP 底层依赖 Function Calling 驱动，两者是不同层面的抽象
+> - [[agent/agentToolUse|ToolCalling]] — MCP 底层依赖 Function Calling 驱动，两者是不同层面的抽象
 > - [[AIAgent]] — MCP 为 Agent 提供标准化的工具接入能力
-> - [[AgentSkill]] — Skill 编排流程，MCP 提供工具，两者配合使用
+> - [[agent/agentToolUse|AgentSkill]] — Skill 编排流程，MCP 提供工具，两者配合使用

@@ -282,7 +282,7 @@ Token 是⁠大模型处理文本的基本单位，可‌能是单词或标点�
 
 ### 进阶提示技巧
 
-#### ⁠1、思维链提示法（‌[[CoT]]，Chain-of-​Thought）
+#### ⁠1、思维链提示法（‌[[agent/agentArchitectures|CoT]]，Chain-of-​Thought）
 
 引导模型展示推理过程，逐步思考问题，提高复杂问题的准确性。
 
